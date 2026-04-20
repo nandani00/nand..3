@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calcu.css">
+    <script src="calcu.js"></script>
+</head>
+<body>
+    <div class="result" id="result">0</div>
+    <div class="row">
+        <div class="item" onclick="getvalue(1)">1</div>
+        <div class="item" onclick="getvalue(2)">2</div>
+        <div class="item" onclick="getvalue(3)">3</div>
+        <div class="item" onclick="getvalue(4)">4</div>
+    </div>
+    <div class="row">
+        <div class="item" onclick="getvalue(5)">5</div>
+        <div class="item" onclick="getvalue(6)">6</div>
+        <div class="item" onclick="getvalue(7)">7</div>
+        <div class="item" onclick="getvalue(8)">8</div>
+    </div>
+    <div class="row">
+        <div class="item" onclick="getvalue(9)">9</div>
+        <div class="item" onclick="getvalue(0)">0</div>
+        <div class="item" onclick="getoperator('+')">+</div>
+        <div class="item" onclick="getoperator('-')">-</div>
+    </div>
+    <div class="row">
+        <div class="item" onclick="getoperator('X')">X</div>
+        <div class="item" onclick="getoperator('/')">/</div>
+        <div class="item" onclick="cl()">C</div>
+        <div class="item" onclick="calculate()">=</div>
+    </div>
+</body>
+</html>

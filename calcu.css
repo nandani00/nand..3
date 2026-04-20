@@ -1,0 +1,37 @@
+body{
+    background-color: rgba(242, 158, 158, 0.679);
+}
+main{
+    border-radius: 0ch;
+    background-color: blueviolet;
+}
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.row div{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(129, 133, 239);
+    margin: 10px;
+    text-align: center;
+    padding: 40px;
+}
+body{
+    width: 500px;
+    margin: auto;
+}
+div :hover{
+    background-color: rgb(197, 176, 151);
+    cursor: pointer;
+    
+}
+.result{
+    height: 20px;
+    width:480px ;
+    background-color: rgb(203, 135, 152);
+    margin: auto;
+    padding: 15px;
+    text-align: right;
+}
+
